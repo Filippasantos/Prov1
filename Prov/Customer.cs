@@ -16,12 +16,13 @@ namespace Prov
 
         public int OwnEvaluation() //kunden får gissa sig till ett pris
         {
-            return 
+            int outOfTime = 1630;
+            return outOfTime;
         }
         
         public bool Buy()//här bestäms det om kunden vill köpa boken eller inte
         {
-
+            return true; //hann inte
         }
 
 
